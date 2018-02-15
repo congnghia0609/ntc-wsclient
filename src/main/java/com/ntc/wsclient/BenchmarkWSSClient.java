@@ -170,7 +170,7 @@ public class BenchmarkWSSClient {
         private int order_price = 100;
         private int order_size = 10;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public BuyFixRunner(long startId, long number) {
             this.startId = startId;
@@ -241,7 +241,7 @@ public class BenchmarkWSSClient {
         private int order_price = 100;
         private int order_size = 10;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public BuyRandomRunner(int startId, long number) {
             this.startId = startId;
@@ -315,7 +315,7 @@ public class BenchmarkWSSClient {
         private int order_price = 100;
         private int order_size = 10;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public SellFixRunner(long startId, long number) {
             this.startId = startId;
@@ -385,7 +385,7 @@ public class BenchmarkWSSClient {
         private int order_price = 100;
         private int order_size = 10;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public SellRandomRunner(int startId, long number) {
             this.startId = startId;
@@ -459,7 +459,7 @@ public class BenchmarkWSSClient {
         private long number = 1000;
         private int order_size = 5;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public CancelFixRunner(int startId, long number) {
             this.startId = startId;
@@ -526,7 +526,7 @@ public class BenchmarkWSSClient {
         private long number = 1000;
         private int order_size = 5;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public CancelRandomRunner(int startId, long number) {
             this.startId = startId;
@@ -595,7 +595,7 @@ public class BenchmarkWSSClient {
         private int order_price = 100;
         private int order_size = 10;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public BuySellFixRunner(long number) {
             this.number = number;
@@ -663,7 +663,7 @@ public class BenchmarkWSSClient {
         private int time = 0;
         private long number = 1000;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         public BuySellRandomRunner(long number) {
             this.number = number;
@@ -738,7 +738,7 @@ public class BenchmarkWSSClient {
         private long startId = 1;
         private long number = 1000;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         // Stats.
         public long total_order = 0;
@@ -856,7 +856,7 @@ public class BenchmarkWSSClient {
         private long startId = 1;
         private long number = 1000;
         private WSSClient client;
-        private String uri = "wss://127.0.0.1:15051";
+        private String uri = "wss://127.0.0.1:8787";
         
         // Stats.
         public long total_order = 0;

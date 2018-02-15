@@ -48,7 +48,7 @@ public class WSClient extends WebSocketClient {
      */
     public static void main(String[] args) {
         try {
-            String uri = "wss://localhost:15051";
+            String uri = "wss://localhost:8787";
             Map<String, String> mapHeader = new HashMap<>();
             int connectTimeout = 30;
             mapHeader.put("abc", "123");
@@ -56,7 +56,7 @@ public class WSClient extends WebSocketClient {
             WSClient client = WSClient.getInstance(uri, mapHeader, connectTimeout);
             
 
-//            URI serverUri = new URI("ws://localhost:15051");
+//            URI serverUri = new URI("ws://localhost:8787");
 //            WSClient client = new WSClient(serverUri);
 //            client.connect();
             Thread.sleep(1000);

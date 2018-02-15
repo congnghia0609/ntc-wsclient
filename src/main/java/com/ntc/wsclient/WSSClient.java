@@ -61,7 +61,7 @@ public class WSSClient extends WebSocketClient {
      */
     public static void main(String[] args) {
         try {
-            String uri = "wss://127.0.0.1:15051";
+            String uri = "wss://127.0.0.1:8787";
             Map<String, String> mapHeader = new HashMap<>();
             int connectTimeout = 30;
             mapHeader.put("abc", "123");
@@ -122,7 +122,7 @@ public class WSSClient extends WebSocketClient {
     
     public static void testFullMatch(){
         try {
-            String uri = "wss://127.0.0.1:15051";
+            String uri = "wss://127.0.0.1:8787";
             Map<String, String> mapHeader = new HashMap<>();
             int connectTimeout = 30;
             mapHeader.put("abc", "123");
@@ -152,7 +152,7 @@ public class WSSClient extends WebSocketClient {
     
     public static void testRandom(){
         try {
-            String uri = "wss://127.0.0.1:15051";
+            String uri = "wss://127.0.0.1:8787";
             Map<String, String> mapHeader = new HashMap<>();
             int connectTimeout = 30;
             mapHeader.put("abc", "123");
